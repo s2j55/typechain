@@ -1,8 +1,6 @@
 import * as CryptoJS from "crypto-js";
 
 class Block{
-  
-
   static calculateBlockHash = (
     index:number, 
     previousHash:string, 
